@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     const elem = localStorage.getItem('portpage');
-    if(elem != ''){
+     if(elem == 'portfolio'){
       document.getElementById('port').click();
       localStorage.clear();
     }
