@@ -1,0 +1,452 @@
+<div  style="text-transform: capitalize;text-align: center;padding-top: 50px; color:black;font-size: 30px;">
+    <span> &#9866;</span>Our Portfolio<span>&#9866;</span></div><br>
+<div class="container">
+<!-- <div class="btn-group" role="group" aria-label="Basic example" > -->
+    <button type="button" class="btn btn-default"  (click)="divclicks('all')" >All</button>
+    <button type="button" class="btn btn-default"  (click)="divclicks('webdev')" >Web Development</button>
+    <button type="button" class="btn btn-default"  (click)="divclicks('logo')" >Logo</button>
+    <button type="button" class="btn btn-default"  (click)="divclicks('webdesign')">Web Design</button>
+    <button type="button" class="btn btn-default"  (click)="divclicks('mobdiv')" >Mobile App Development</button>
+
+<div class=" " id="all" *ngIf="alldiv" >
+ <div class="row">
+     <div class="col-sm-4">
+        <div class="card">
+          <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project14-1140x713.jpg" width="100%" height="100%">
+
+        </div>
+        <div class="form-group">
+          <div id="butt">
+            <h6 class="name">Theme Factory</h6>
+            <span class="proj_cats_con"><span>
+             Web Design</span></span><br>
+          <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                  <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project14-1140x713.jpg')" >Zoom</button><span></span>
+                </div>
+                <div class="col-sm-3">
+                  <button type="button" class="btn btn-info" [routerLink]="['/theme']">Explore</button>
+                </div>
+                <div class="col-sm-3"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+            <img src="http://www.kivartech.com/wp-content/uploads/2015/12/hm_project3-1140x750.jpg" width="100%" height="100%">
+        </div>
+        <div class="form-group">
+            <div id="butt">
+              <h6 class="name">Paper Hot Cup</h6>
+              <span class="proj_cats_con"><span>
+              Web Development</span></span><br>
+              <div class="row">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/12/hm_project3-1140x750.jpg')" >Zoom</button><span></span>
+                  </div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-info" [routerLink]="['/paper']">Explore</button>
+                  </div>
+                  <div class="col-sm-3"></div>
+              </div>
+
+
+            </div>
+        </div>
+      </div>
+    <div class="col-sm-4">
+        <div class="card">
+            <img class="card-img-top" src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project1-1140x713.jpg" width="100%" height="100%">
+        </div>
+      <div class="form-group">
+          <div id="butt">
+            <h6 class="name">Own Age Logo</h6>
+            <span class="proj_cats_con"><span>
+            Logo</span></span><br>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project1-1140x713.jpg')" >Zoom</button><span></span>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-info" [routerLink]="['/own']">Explore</button>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+
+          </div>
+      </div>
+    </div>
+ <div class="row">
+    <div class="col-sm-4">
+       <div class="card">
+          <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project10-1140x713.jpg" width="100%" height="100%">
+       </div>
+       <div class="form-group">
+          <div id="butt">
+        <h6 class="name">Need For Speed</h6>
+         <span class="proj_cats_con"><span>
+         Web Design</span></span><br>
+         <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project10-1140x713.jpg')" >Zoom</button><span></span>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-info" [routerLink]="['/need']">Explore</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+
+     </div>
+     </div>
+     </div>
+     <div class="col-sm-4">
+       <div class="card">
+          <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project2-1140x713.jpg" width="100%" height="100%">
+       </div>
+       <div class="form-group">
+          <div id="butt">
+        <h6 class="name">Earth Rocket</h6>
+         <span class="proj_cats_con"><span>
+         Logo</span></span><br>
+         <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project2-1140x713.jpg')" >Zoom</button><span></span>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-info" [routerLink]="['/earth']">Explore</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+
+     </div>
+     </div>
+     </div>
+   <div class="col-sm-4">
+       <div class="card">
+          <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project3-1140x713.jpg" width="100%" height="100%">
+       </div>
+       <div class="form-group">
+          <div id="butt">
+        <h6 class="name">Balloon Design</h6>
+         <span class="proj_cats_con"><span>
+         Logo</span></span><br>
+         <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project3-1140x713.jpg')" >Zoom</button><span></span>
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-info" [routerLink]="['/balloon']">Explore</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+
+
+
+     </div>
+     </div>
+   </div>
+</div>
+</div>
+</div>
+<div class=" " id="webdev" *ngIf="webdiv">
+    <div class="row">
+        <div class="col-sm-4">
+           <div class="card">
+             <img src="http://www.kivartech.com/wp-content/uploads/2015/12/hm_project3-1140x750.jpg" width="100%" height="100%">
+           </div>
+           <div class="form-group">
+            <div id="butt">
+              <h6 class="name">Paper Hot Cup</h6>
+              <span class="proj_cats_con"><span>
+              Web Development</span></span><br>
+              <div class="row">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/12/hm_project3-1140x750.jpg')" >Zoom</button><span></span>
+                  </div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-info" [routerLink]="['/paper']">Explore</button>
+                  </div>
+                  <div class="col-sm-3"></div>
+              </div>
+
+
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div class=" " id="logo" *ngIf="logodiv">
+      <div class="row">
+          <div class="col-sm-4">
+             <div class="card">
+               <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project1-1140x713.jpg" width="100%" height="100%">
+             </div>
+             <div class="form-group">
+              <div id="butt">
+                <h6 class="name">Own Age Logo</h6>
+                <span class="proj_cats_con"><span>
+                Logo</span></span><br>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project1-1140x713.jpg')" >Zoom</button><span></span>
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" [routerLink]="['/own']">Explore</button>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+
+
+
+              </div>
+          </div>
+           </div>
+           <div class="col-sm-4">
+             <div class="card">
+                 <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project2-1140x713.jpg" width="100%" height="100%">
+             </div>
+             <div class="form-group">
+              <div id="butt">
+            <h6 class="name">Earth Rocket</h6>
+             <span class="proj_cats_con"><span>
+             Logo</span></span><br>
+             <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project2-1140x713.jpg')" >Zoom</button><span></span>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-info" [routerLink]="['/earth']">Explore</button>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+
+         </div>
+         </div>
+           </div>
+         <div class="col-sm-4">
+             <div class="card">
+                 <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project3-1140x713.jpg" width="100%" height="100%">
+             </div>
+             <div class="form-group">
+              <div id="butt">
+            <h6 class="name">Balloon Design</h6>
+             <span class="proj_cats_con"><span>
+             Logo</span></span>
+             <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project3-1140x713.jpg')" >Zoom</button><span></span>
+                </div>
+                <div class="col-sm-3">
+                    <button type="button" class="btn btn-info" [routerLink]="['/balloon']">Explore</button>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+
+
+
+         </div>
+         </div>
+         </div>
+      </div>
+  </div>
+    <div class=" " id="webdesign" *ngIf="webdesdiv" >
+        <div class="row">
+            <div class="col-sm-4">
+               <div class="card">
+                 <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project14-1140x713.jpg" width="100%" height="100%">
+               </div>
+               <div class="form-group">
+                <div id="butt">
+                  <h6 class="name">Theme Factory</h6>
+                  <span class="proj_cats_con"><span>
+                   Web Design</span></span><br>
+                   <div class="row">
+                      <div class="col-sm-3"></div>
+                      <div class="col-sm-3">
+                          <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project14-1140x713.jpg')" >Zoom</button><span></span>
+                      </div>
+                      <div class="col-sm-3">
+                          <button type="button" class="btn btn-info" [routerLink]="['/theme']">Explore</button>
+                      </div>
+                      <div class="col-sm-3"></div>
+                  </div>
+
+
+                </div>
+              </div>
+             </div>
+             <div class="col-sm-4">
+               <div class="card">
+                   <img src="http://www.kivartech.com/wp-content/uploads/2015/09/enar_project10-1140x713.jpg" width="100%" height="100%">
+               </div>
+               <div class="form-group">
+                <div id="butt">
+              <h6 class="name">Need For Speed</h6>
+               <span class="proj_cats_con"><span>
+               Web Design</span></span><br>
+               <div class="row">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/09/enar_project10-1140x713.jpg')" >Zoom</button><span></span>
+                  </div>
+                  <div class="col-sm-3">
+                      <button type="button" class="btn btn-info" [routerLink]="['/need']">Explore</button>
+                  </div>
+                  <div class="col-sm-3"></div>
+              </div>
+
+
+           </div>
+           </div>
+             </div>
+        </div>
+
+    </div>
+   <div class=" " id="mobiledev" *ngIf="mobilediv">
+   </div>
+
+  <div class=" " id="load" *ngIf="loaddiv" >
+        <div class="row">
+            <div class="col-sm-4">
+               <div class="card">
+                 <img src="http://www.kivartech.com/wp-content/uploads/2015/12/hm_project4-1140x750.jpg" width="100%" height="100%">
+               </div>
+               <div class="form-group">
+                  <div id="butt">
+                <h6 class="name">See Glasses</h6>
+                 <span class="proj_cats_con"><span>
+                 Web Development</span></span><br>
+                 <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/12/hm_project4-1140x750.jpg')" >Zoom</button><span></span>
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" [routerLink]="['/see']">Explore</button>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+
+
+             </div>
+             </div>
+             </div>
+             <div class="col-sm-4">
+               <div class="card">
+                   <img src="http://www.kivartech.com/wp-content/uploads/2015/12/hm_project13-1140x750.jpg" width="100%" height="100%">
+               </div>
+               <div class="form-group">
+                  <div id="butt">
+                <h6 class="name">Free Design</h6>
+                 <span class="proj_cats_con"><span>
+                 Web Development</span></span><br>
+                 <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/12/hm_project13-1140x750.jpg')" >Zoom</button><span></span>
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" [routerLink]="['/free']">Explore</button>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+
+
+             </div>
+             </div>
+             </div>
+             <div class="col-sm-4">
+                <div class="card">
+                    <img src="http://www.kivartech.com/wp-content/uploads/2015/12/hm_project8-1140x750.jpg" width="100%" height="100%">
+                </div>
+                <div class="form-group">
+                    <div id="butt">
+                  <h6 class="name">Coffee Cup</h6>
+                   <span class="proj_cats_con"><span>
+                   Web Development</span></span><br>
+                   <div class="row">
+                      <div class="col-sm-3"></div>
+                      <div class="col-sm-3">
+                          <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/12/hm_project8-1140x750.jpg')" >Zoom</button><span></span>
+                      </div>
+                      <div class="col-sm-3">
+                          <button type="button" class="btn btn-info" [routerLink]="['/coffee']">Explore</button>
+                      </div>
+                      <div class="col-sm-3"></div>
+                  </div>
+
+
+               </div>
+               </div>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+               <div class="card">
+                 <img src="http://www.kivartech.com/wp-content/uploads/2015/12/hm_project11-1140x750.jpg" width="100%" height="100%">
+               </div>
+               <div class="form-group">
+                  <div id="butt">
+                <h6 class="name">Pink Popcorn Bag</h6>
+                 <span class="proj_cats_con"><span>
+                 Web Development</span></span><br>
+                 <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" (click)="imagezooom('http://www.kivartech.com/wp-content/uploads/2015/12/hm_project11-1140x750.jpg')" >Zoom</button><span></span>
+                    </div>
+                    <div class="col-sm-3">
+                        <button type="button" class="btn btn-info" [routerLink]="['/pink']">Explore</button>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+
+
+             </div>
+             </div>
+             </div>
+            </div>
+
+    </div>
+<p style="text-align: center"><a class="btn btn-outline-secondary">
+    <span>
+        <i class="fa fa-refresh" aria-hidden="true" (click)="divclicks('load')"></i>
+      <span (click)="divclicks('load')">Load More Projects</span>
+    </span>
+</a></p>
+
+
+<button type="button" style="display:none;" id="zoomclick" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <div class="card" style="height:450px;">
+        <img src="{{ imagezoom }}" width="100%" height="100%">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    overflow-y: auto;
+    padding-top: 0px;
+
+}
+
+
+main h3:before {
+    height: 60px;
+    content: "";
+    display:block;
+}
+
